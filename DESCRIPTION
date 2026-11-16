@@ -1,0 +1,15 @@
+Package: fLSL
+Type: Package
+Title: Functional Spatial-Index Logit Regression
+Version: 0.1.0
+Authors@R: person("Muge", "Mutis", email = "muge.mutis@yildiz.edu.tr", role = c("aut", "cre"))
+Description: Estimation and inference for a functional spatial-index logit model, in which a scalar on-function index is propagated across spatial units by a spatial autoregressive multiplier and linked to the success probability of a binary response through a logistic function. The curves are represented by functional principal component analysis. The package provides the one-step functional linearized spatial logit (FLSL) estimator and its inversion-free Wald test of no spatial propagation, the iterated projected generalized method of moments estimator computed by a safeguarded Gauss-Newton iteration (IFLSL-LS), spatial heteroskedasticity and autocorrelation consistent (HAC) inference, average direct, indirect and total functional effect curves with pointwise bands, Bernoulli quasi-maximum likelihood and nonlinear least squares benchmarks, diagnostics and the simulation designs of the accompanying paper.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: fda, graphics, Matrix, methods, stats, utils
+Suggests: dbscan, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/MugeMutis/fLSL
+BugReports: https://github.com/MugeMutis/fLSL/issues
+Config/roxygen2/version: 8.1.1
